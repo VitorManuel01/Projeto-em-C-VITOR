@@ -1,0 +1,13 @@
+#include stdio.h
+
+int main()
+{
+    int num1, num2, soma;
+    num2 = 300;
+    scanf(%d, &num1);
+    
+    soma = num1 + num2;
+    printf(%dn, soma);
+    
+    return 0;
+}

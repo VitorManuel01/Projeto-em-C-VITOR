@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    double a, b, c, d, e, media;
+    scanf("%lf", &a);
+    scanf("%lf", &b);
+    scanf("%lf", &c);
+    scanf("%lf", &d);
+    scanf("%lf", &e);
+    
+    media = (a+b+c+d+e) / 5;
+    
+    printf("%lf\n", media);
+    return 0;
+}
